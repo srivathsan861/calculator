@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator_style.css">
+</head>
+<body>
+
+	<div id="calculator">
+
+		<h1 id="heading">CALCULATOR</h1>
+
+		<input id="display-screen" placeholder="0" disabled="">
+
+		<div class="calculator_buttons">
+
+            <button class="calc_button ac_color" onclick="Clear()">AC</button>
+            <button class="calc_button sign_color" onclick="sign('+/-')">+/-</button>
+            <button class="calc_button operator_color" onclick="display('%')">%</button>
+            <button class="calc_button operator_color" onclick="display('/')">/</button>
+            <button class="calc_button " onclick="display('7')">7</button>
+            <button class="calc_button" onclick="display('8')">8</button>
+            <button class="calc_button" onclick="display('9')">9</button>
+            <button class="calc_button operator_color" onclick="display('*')">*</button>
+            <button class="calc_button" onclick="display('4')">4</button>
+            <button class="calc_button" onclick="display('5')">5</button>
+            <button class="calc_button" onclick="display('6')">6</button>
+            <button class="calc_button operator_color" onclick="display('-')">-</button>
+			<button class="calc_button" onclick="display('1')">1</button>
+			<button class="calc_button" onclick="display('2')">2</button>
+            <button class="calc_button" onclick="display('3')">3</button>
+            <button class="calc_button operator_color" onclick="display('+')">+</button>
+            <button class="calc_button zero_style" onclick="display('0')">0</button>
+            <button class="calc_button" onclick="dot('.')">.</button>
+            <button class="calc_button eq_color" onclick="calculate()">=</button>
+       
+		</div>
+		
+	</div>
+
+
+<script type="text/javascript" src="calculator_js.js"></script>
+</body>
+</html>
